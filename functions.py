@@ -1,7 +1,7 @@
 # Do not remove these Imports. They enable log and dbg when importing * from functions
-import lib.log as log
+from . import log
 import logging
-from lib.log import dbg
+from .log import dbg
 
 import re
 from datetime import datetime
